@@ -1,0 +1,29 @@
+body{
+    overflow: hidden;
+}
+
+.sidebarzinha {
+    background-color: #F9F5EB;
+    height: 100vh;
+}
+
+.coisas {
+    margin: 10px;
+}
+
+.conteudo {
+    height: 100vh;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.scrolar {
+    height: 76vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+

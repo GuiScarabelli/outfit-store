@@ -27,6 +27,7 @@ class ClienteModel extends Model
         'emailCliente',
         'foneCliente',
         'celularCliente'
+    
     ];
     
     public $timestamps = false;

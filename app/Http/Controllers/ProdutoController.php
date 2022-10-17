@@ -67,9 +67,9 @@ class ProdutoController extends Controller
         }
 
         $this->produtos->create([
-            'produto' => $request->produto,
-            'valor' => $request->valor,
-            'foto' => $imageName,
+            'nomeProduto' => $request->produto,
+            'valorProduto' => $request->valor,
+            'fotoProduto' => $imageName,
             'idCategoria' => $request->categoria
         ]);
 
